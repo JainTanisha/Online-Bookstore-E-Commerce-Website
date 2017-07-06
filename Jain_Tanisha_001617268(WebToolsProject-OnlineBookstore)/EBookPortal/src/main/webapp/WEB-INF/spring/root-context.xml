@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+    <bean id="customerValidator" class="com.ebookportal.spring.controllers.CustomerValidator"></bean>
+	<bean id="adminValidator" class="com.ebookportal.spring.controllers.AdminValidator"></bean>
+	<bean id="userValidator" class="com.ebookportal.spring.controllers.UserValidator"></bean>
+	<bean id="genreValidator" class="com.ebookportal.spring.controllers.GenreValidator"></bean>
+	<bean id="bookValidator" class="com.ebookportal.spring.controllers.BookValidator"></bean>
+	
+</beans>
